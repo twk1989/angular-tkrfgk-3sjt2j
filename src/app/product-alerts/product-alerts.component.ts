@@ -18,4 +18,8 @@ export class ProductAlertsComponent implements OnInit {
   ngOnInit() {
   }
 
+  test() {
+    window.alert('Test Notify Button');
+  }
+
 }
