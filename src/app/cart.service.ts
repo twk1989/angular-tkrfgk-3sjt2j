@@ -9,7 +9,7 @@ export class CartService {
 
   items = [];
 
-  addToCart(productcart) {
+  addToCart(productcart: any) {
     this.items.push(productcart);
   }
 

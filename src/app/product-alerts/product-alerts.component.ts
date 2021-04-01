@@ -9,7 +9,7 @@ import { Output, EventEmitter } from '@angular/core';
 })
 export class ProductAlertsComponent implements OnInit {
 
-  @Input() PAC_product;
+  @Input() PAC_product: any;
 
   @Output() notify = new EventEmitter();
   
